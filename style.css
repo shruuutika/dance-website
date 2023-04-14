@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar .btn{
+    padding: 0.5rem 2rem;
+    border-radius: 1rem;
+}
+#hero{
+    background-color: rgba(255, 68, 0, 0.878);
+}
+
+.main h1{
+    font-size: 5rem;
+    font-weight: 700;
+}
+
+.main p{
+    font-size: 2rem;
+}
+
+.main .btn{
+    padding: 1rem 4rem;
+    border-radius: 3rem;
+    background-color: rgba(255, 166, 0, 0.763);
+}
+
+#about{
+    background-color: rgba(255, 166, 0, 0.763);
+}
+
+#about .btn{
+    padding: 1rem 3rem;
+    border-radius: 2rem;
+}
+#facility .card{
+   border-radius: 1rem;
+}
+.first{
+    background-color: blueviolet;
+}
+
+.second{
+    background-color: rgba(255, 166, 0, 0.853);
+}
+
+.third{
+    background-color: rgba(255, 68, 0, 0.93);
+}
+
+.a{
+    background-image: url('./Images/class-8.jpg');
+    height: 35vh;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: end;
+}
+
+.bd{
+    background-image: url('./Images/class-7.jpg');
+    height: 35vh;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: end;
+}
+
+.c{
+    background-image: url('./Images/class-1.jpg');
+    height: 35vh;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: end;
+}
+
+.c::after{
+    content: ' ';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.268);
+}
+.z{
+    z-index: 3;
+}
+
+.d{
+    background-image: url('./Images/class-6.jpg');
+    height: 35vh;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: end;
+}
+
+.d::after{
+    content: ' ';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.268);
+}
+.z{
+    z-index: 3;
+}
+
+.e{
+    background-image: url('./Images/class-5.jpg');
+    height: 35vh;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: end;
+}
+
+.f{
+    background-image: url('./Images/class-4.jpg');
+    height: 35vh;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: end;
+}
+
+.g{
+    background-image: url('./Images/class-3.jpg');
+    height: 35vh;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: end;
+}
+
+.h{
+    background-image: url('./Images/class-2.jpg');
+    height: 35vh;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: end;
+}
+.h::after{
+    content: ' ';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.268);
+}
+.z{
+    z-index: 3;
+}
+
+#footer{
+    background-color:  #0c1e35;
+}
+
+@media screen and (max-width: 768px) {
+    .main h1{
+      font-size: 50px;
+    }
+    #facility .col-md-4 .card{
+        font-width: 18px;
+    }
+  }
